@@ -17,7 +17,7 @@
 .about__container,
 .info__list,
 .stats {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, auto);
 }
 
 .info__list {
@@ -27,4 +27,8 @@
 
 .sector__subtitle {
     margin-bottom: 20px;
+}
+
+.info__item {
+    margin-right: 10px;
 }

@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-row flex-wrap gap-5 z-50">
+        <div className="flex flex-row flex-wrap gap-5 z-10">
           <div onClick={() => window.open("https://github.com/B0cz3k", "_blank")}>
               <img src={github} className="w-20" />
           </div>
