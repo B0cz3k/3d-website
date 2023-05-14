@@ -2,6 +2,10 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import './style.css'
+
+import github from '../assets/github.png'
+import linkedin from '../assets/linkedin.svg'
 
 const Hero = () => {
   return (
@@ -16,13 +20,23 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
+            Hi, I'm <span className='text-[#915EFF]'>Łukasz</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            I am a student at Poznań University of Technology. <br className='sm:block hidden' />
+            ...and I'm looking for a job :)
           </p>
         </div>
+
+        <div className="flex flex-row flex-wrap gap-5 z-50">
+          <div onClick={() => window.open("https://github.com/B0cz3k", "_blank")}>
+              <img src={github} className="w-20" />
+          </div>
+          <div onClick={() => window.open("https://www.linkedin.com/in/%C5%82ukasz-borak-401541256/")}>
+            <img src={linkedin} className="w-20" />
+          </div>
+        </div>
+
       </div>
 
       <ComputersCanvas />
