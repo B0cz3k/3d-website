@@ -17,7 +17,7 @@
 .about__container,
 .info__list,
 .stats {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50%);
 }
 
 .info__list {
@@ -26,17 +26,5 @@
 }
 
 .sector__subtitle {
-    font-size: var(--h3-font-size);
-    font-weight: var(--weight-600);
     margin-bottom: 20px;
-}
-
-.info__list .info__title,
-.info__list .info__description {
-    font-size: var(--small-font-size);
-}
-
-.info__list .info__description {
-    color: var(--title-color);
-    font-weight: var(--weight-600);
 }

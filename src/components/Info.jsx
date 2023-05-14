@@ -60,7 +60,7 @@ const Info = () => {
             <li className="info__item" key={index}>
               <motion.p
                 variants={fadeIn("", "", 0.1, 1)}
-                className='mt-4 text-[18px] max-w-3xl leading-[30px]'
+                className='mt-4 text-[16px] max-w-3xl leading-[30px]'
               >
                 <span className='text-secondary'>{title}</span>
                 <span className='text-white'>{description}</span>
