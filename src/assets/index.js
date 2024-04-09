@@ -26,7 +26,12 @@ import website from "./website.png";
 import mario from "./mario-rl.png";
 import bmp from "./bmp.png";
 
+import llm from "./llm.png"
+import unet from "./unet.png"
+
 export {
+  unet,
+  llm,
   logo,
   github,
   menu,
