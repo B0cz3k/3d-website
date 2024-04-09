@@ -5,9 +5,9 @@ import {
   reactjs,
   tailwind,
   git,
-  website,
+  unet,
   mario,
-  bmp,
+  llm,
   threejs,
   python,
   pytorch,
@@ -44,57 +44,12 @@ const technologies = [
     icon: tensorflow,
   },
   {
-    name: "C",
-    icon: c,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "ReactJS",
-    icon: reactjs,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
 ];
 
 const projects = [
-  {
-    name: "BMP-File Parser",
-    description:
-      "A program that displays information about headers of a BMP file, can rewrite the image in grayscale, show the histogram of colors of the image and also encode and decode a message within that file.",
-    tags: [
-      {
-        name: "C",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "git",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bmp,
-    source_code_link: "https://github.com/B0cz3k/bmp_parser",
-  },
   {
     name: "Super Mario Reinforcement Learning",
     description:
@@ -117,25 +72,47 @@ const projects = [
     source_code_link: "https://github.com/B0cz3k/Mario",
   },
   {
-    name: "This website",
+    name: "RAG LLM",
     description:
-      "Created from tutorial on YouTube, then tailored to my needs. Makes use of some of the most popular technology behind webdev right now.",
+      "LLM agent with RAG capabilities, tailored for PDF document understanding and summarization. Can chat about any PDF document given to it.",
     tags: [
       {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
+        name: "Python",
+        color: "blue-text-gradient",
       },
       {
-        name: "ThreeJS",
+        name: "PyTorch",
         color: "orange-text-gradient",
       },
       {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      }
+        name: "git",
+        color: "pink-text-gradient",
+      },
     ],
-    image: website,
-    source_code_link: "https://github.com/B0cz3k/3d-website",
+    image: llm,
+    source_code_link: "https://github.com/B0cz3k/llm_pdf_chatbot",
+  },
+
+  {
+    name: "Image segmentation",
+    description:
+      "Image segmentation using a U-net implementation from scratch in PyTorch. Trained on Carvana dataset.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PyTorch",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "git",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: unet,
+    source_code_link: "https://github.com/B0cz3k/image_segmentation",
   },
 ];
 
