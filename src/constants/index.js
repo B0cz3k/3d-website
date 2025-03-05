@@ -118,7 +118,7 @@ const projects = [
       },
     ],
     image: monopoly,
-    source_code_link: "https://github.com/j-millet/group-projects/tree/master/CV/Project2",
+    source_code_link: "https://github.com/B0cz3k/monopoly",
   },
   
   {
