@@ -10,6 +10,9 @@ import {
   monopoly,
   mario,
   llm,
+  jsontools,
+  streamingplatform,
+  report
 } from "../assets";
 
 export const navLinks = [
@@ -159,6 +162,53 @@ const projects = [
     ],
     image: llm,
     source_code_link: "https://github.com/B0cz3k/llm_pdf_chatbot",
+  },
+  {
+    name: "Java JSON Tools REST API",
+    description:
+      "A JSON tools application for developers to reformat, filter, and compare JSON structures. Supports minification, beautification, and integration via GUI or REST API.",
+    tags: [
+      {
+        name: "Java",
+        color: "red-text-gradient",
+      },
+      {
+        name: "SpringBoot",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jsontools,
+    source_code_link: "https://github.com/j-millet/SE2024-project",
+  },
+  {
+    name: "Java streaming platform simulation",
+    description:
+      "Multithreaded Java application simulating a streaming platform with users, channels and media. Implemented with Swing GUI.",
+    tags: [
+      {
+        name: "Java",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Swing",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: streamingplatform,
+    source_code_link: "https://github.com/B0cz3k/JavaTortures",
+  },
+  {
+    name: "Data visualization",
+    description:
+      "Data visualization of exploratory data analysis of the “Stack Overflow developer surveys” conducted in 2018 and 2023.",
+    tags: [
+      {
+        name: "R",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: report,
+    source_code_link: "https://github.com/B0cz3k/reproducible-report",
   },
 ];
 

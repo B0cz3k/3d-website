@@ -17,6 +17,9 @@ import instanceseg from './instanceseg.png';
 import llm from "./llm.png";
 import ainspired from './ainspired.png';
 import monopoly from './monopoly.png';
+import report from './report.png';
+import streamingplatform from './streamingplatform.png';
+import jsontools from './jsontools.png';
 
 export {
   instanceseg,
@@ -35,4 +38,7 @@ export {
   python,
   pytorch,
   tensorflow,
+  report,
+  streamingplatform,
+  jsontools
 };

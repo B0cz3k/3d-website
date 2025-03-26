@@ -80,7 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[18px] max-w-3xl leading-[30px]'
         >
-          Following projects showcase some of my skills. I really enjoy building new AI projects in my free time. I'm particularly interested in computer vision, natural language processing and game playing. But I'm currently working on some generative AI projects too. Feel free to check out my GitHub for more details!
+          Following projects showcase some of my skills. I really enjoy building new projects in my free time. I'm particularly interested in computer vision, natural language processing and game playing. But I'm currently working on some generative AI projects too. Feel free to check out my GitHub for more details!
         </motion.p>
       </div>
 
